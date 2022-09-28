@@ -1,6 +1,16 @@
 package classesWithAttiributes;
 
 public class Product {
+	public Product(int id, String name,String description, double price, int stockAmount, String color) {
+		System.out.println("Block Running");
+		this._id = id;
+		this._color = color;
+		this._description = description;
+		this._stockAmount = stockAmount;
+		this._price = price;
+		this._name= name;
+	}
+	public Product() {}
 	// attribute field
 	private int _id;
 	private String _name;
